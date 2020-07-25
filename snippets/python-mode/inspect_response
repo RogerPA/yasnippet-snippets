@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-x
+# name: inspect_response
+# key: ir
+# contributor : Roger Peralta Aranibar
+# group : scrapy
+# --
+# fmt: off
+from scrapy.shell import inspect_response
+inspect_response(${response}, self)
+# fmt: on
